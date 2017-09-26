@@ -1,0 +1,45 @@
+.inner {
+  background: url("/images/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex: 1;
+  height: 300px;
+}
+
+.outer {
+  margin-top: -300px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(216,67,21,0.65);
+  height: 300px;
+}
+
+.outer h1 {
+  letter-spacing: 3px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+}
+
+.outer h2 {
+  margin: 10px 0px;
+  letter-spacing: 1.2px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+
+.line {
+  height: 30px;
+  width: 100%;
+  background-color: #F4511E;
+}

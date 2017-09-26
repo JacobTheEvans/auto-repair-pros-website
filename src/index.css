@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  padding: 5px 30px;
+}
+
+.col-2 {
+  flex: 1;
+  padding: 0px 30px;
+  min-height: 200px;
+  margin: 25px 0px;
+}
+
+.col-2:nth-of-type(1) {
+  flex-grow: 1.5;
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    display: block;
+  }
+}
