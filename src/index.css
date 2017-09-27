@@ -17,7 +17,7 @@ body, html {
 }
 
 .container-spacing {
-  padding: 30px 30px;
+  padding: 50px 30px;
 }
 
 .col-2 {
@@ -61,7 +61,7 @@ input, textarea {
   border: none;
   cursor: pointer;
   box-sizing: border-box;
-  background-color: #F4511E;
+  background-color: #F44336;
 }
 
 

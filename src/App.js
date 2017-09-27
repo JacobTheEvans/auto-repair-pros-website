@@ -4,6 +4,7 @@ import About from "./components/About";
 import CustomMap from "./components/CustomMap";
 import Hours from "./components/Hours";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
           <Hours/>
         </div>
         <Contact />
+        <Footer />
       </div>
     )
   }
