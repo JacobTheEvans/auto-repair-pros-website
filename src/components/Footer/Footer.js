@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
       <footer>
         <p>Copyright <FontAwesome name="copyright"/> 2017 All Rights Reserved</p>
-        <p>Made By <a href="https://jacobtheevans.com" target="_blank">Jacob Evans</a></p>
+        <p>Made By <a href="https://jacobtheevans.com" rel="noopener noreferrer" target="_blank">Jacob Evans</a></p>
       </footer>
     )
   }

@@ -36,8 +36,8 @@ class Hours extends React.Component {
       <section className="col-2 hours-sec">
         <h2><FontAwesome name="clock-o"/>  Business Hours</h2>
         <aside>
-          {time.map((item) => (
-            <div className="hours">
+          {time.map((item, index) => (
+            <div key={item.start + index} className="hours">
               <h3>{item.day}</h3>
               {item.start === "Closed" ? <p>{item.start}</p> : <p>{item.start} to {item.end}</p> }
             </div>

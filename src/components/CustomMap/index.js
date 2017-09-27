@@ -20,9 +20,6 @@ let autoRepairData = {
 }
 
 class MapContainer extends React.Component {
-  constructor() {
-    super();
-  }
   render() {
     return (
       <section className="col-2 map-overflow col-overgrow">
