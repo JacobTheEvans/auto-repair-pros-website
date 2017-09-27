@@ -1,0 +1,20 @@
+.contact h2 {
+  margin-top: 5px;
+  color: #F4511E;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 18px;
+  padding-bottom: 17px;
+  margin-top: 7px;
+}
+
+.contact h3 {
+  padding-top: 17px;
+  margin: 0;
+}
+
+textarea {
+  height: 250px !important;
+}

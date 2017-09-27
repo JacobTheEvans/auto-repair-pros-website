@@ -1,23 +1,24 @@
 import React from "react";
+import FontAwesome from "react-fontawesome";
 import "./Hours.css";
 
 const time = [
   {
     day: "Monday",
-    start: "8AM",
-    end: "5PM"
+    start: "8:00 AM",
+    end: "5:00 PM"
   }, {
     day: "Tuesday",
-    start: "8AM",
-    end: "5PM"
+    start: "8:00 AM",
+    end: "5:00 PM"
   }, {
     day: "Thursday",
-    start: "8AM",
-    end: "5PM"
+    start: "8:00 AM",
+    end: "5:00 PM"
   }, {
     day: "Friday",
-    start: "8AM",
-    end: "5PM"
+    start: "8:00 AM",
+    end: "5:00 PM"
   }, {
     day: "Saturday",
     start: "Closed",
@@ -33,7 +34,7 @@ class Hours extends React.Component {
   render() {
     return (
       <section className="col-2 hours-sec">
-        <h2>Business Hours</h2>
+        <h2><FontAwesome name="clock-o"/>  Business Hours</h2>
         <aside>
           {time.map((item) => (
             <div className="hours">

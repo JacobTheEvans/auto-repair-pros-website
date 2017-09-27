@@ -4,7 +4,7 @@ import "./Map.css";
 
 let autoRepairData = {
   lat: 40.437102,
-  lng: -109.499756,
+  lng: -109.502,
   markers: [
     {
       position: {
@@ -22,18 +22,18 @@ let autoRepairData = {
 class MapContainer extends React.Component {
   constructor() {
     super();
-    this.state = {
-      key: null,
-      width: 0,
-      padding: 0,
-      lat: 0,
-      lng: 0
-    };
   }
   render() {
     return (
-      <section className="col-2 map-overflow">
+      <section className="col-2 map-overflow col-overgrow">
         <GoogleMapCustom lat={autoRepairData.lat} lng={autoRepairData.lng} containerElement={< div style = {{ height: `450px`, "width": "100%"}}/>} mapElement={< div style = {{ height: `100%`, width: "100%" }}/>} onMapLoad={() => {}} onMapClick={() => {}} markers={autoRepairData.markers} onMarkerRightClick={() => {}}/>
+        <div className="address">
+          <h3>Find Us At</h3>
+          <p>1348 South</p>
+          <p>1500 East</p>
+          <p>Shop #2</p>
+          <p>Vernal, UT 84078</p>
+        </div>
       </section>
     );
   }
