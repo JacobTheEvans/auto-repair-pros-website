@@ -43,3 +43,13 @@
   width: 100%;
   background-color: #F44336;
 }
+
+
+@media (max-width: 784px) {
+  .outer h1 {
+    font-size: 40px;
+  }
+  .outer h2 {
+    font-size: 24px;
+  }
+}

@@ -7,9 +7,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
+  box-sizing: border-box;
 }
 
 footer p {
+  text-align: center;
   color: white;
 }
 

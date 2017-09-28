@@ -1,6 +1,7 @@
 .map-overflow {
   overflow-x: hidden;
   position: relative;
+  order: 1;
 }
 
 .address {
@@ -23,4 +24,16 @@
 
 .col-overgrow {
   flex-grow: 1.5 !important;
+}
+
+@media (max-width: 700px) {
+  .address {
+    margin-top: 70px;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    padding: inherit 0px;
+  }
 }
