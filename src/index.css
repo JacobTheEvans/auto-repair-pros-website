@@ -63,8 +63,12 @@ input, textarea {
   cursor: pointer;
   box-sizing: border-box;
   background-color: #F44336;
+  transition: background-color 0.5s ease;
 }
 
+.btn:hover {
+  background-color: #f77b72;
+}
 
 @media (max-width: 765px) {
   .container {
