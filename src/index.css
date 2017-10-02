@@ -70,6 +70,11 @@ input, textarea {
   background-color: #f77b72;
 }
 
+.btn:disabled {
+  background-color: #ff6666;
+  cursor:no-drop;
+}
+
 @media (max-width: 765px) {
   .container {
     display: block;

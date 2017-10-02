@@ -18,3 +18,7 @@
 textarea {
   height: 250px !important;
 }
+
+.message-text {
+  text-align: center;
+}

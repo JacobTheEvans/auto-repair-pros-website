@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "./Contact.js";
-import Form from "./Form.js";
+import Form from "./Form";
 
 class ContactContainer extends React.Component {
   render() {
