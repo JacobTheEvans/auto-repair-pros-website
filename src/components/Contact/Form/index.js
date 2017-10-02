@@ -44,7 +44,7 @@ class FormContainer extends React.Component {
     }));
   }
   handleSubmit() {
-    axios.post("http://localhost:8080/contact", this.state).then((response) => {
+    axios.post("/contact", this.state).then((response) => {
       this.setState(prevState => ({
         name: "",
         number: "",
